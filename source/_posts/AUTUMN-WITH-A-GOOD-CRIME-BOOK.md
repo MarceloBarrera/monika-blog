@@ -1,6 +1,7 @@
 title: AUTUMN WITH A GOOD CRIME BOOK?
 date: 2018-10-19 11:37:01
-tags:
+tags: [Autumn crime book, Crime, Good reading for autumn, Jørn Lier Horst, Norskkrim, Norwegian crime book]
+category: [Crime]
 ---
 ![Nullpunkt by Jørn Lier Horst and Thomas Enger ](/images/nullpunkt.jpg)
 
