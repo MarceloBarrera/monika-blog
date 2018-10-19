@@ -5,9 +5,7 @@ db.json
 node_modules/
 public/
 .deploy*/
-source/_posts/
-source/about/
-source/images/
+
 
 # IDE specific files
 ###################################################
