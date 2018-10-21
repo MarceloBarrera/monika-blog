@@ -5,8 +5,8 @@
 # Header Menu
 menu:
   Home: /
-  Archives: archives
-  About: about
+  Archives: archives/
+  About: about/
 rss: /atom.xml
 
 
