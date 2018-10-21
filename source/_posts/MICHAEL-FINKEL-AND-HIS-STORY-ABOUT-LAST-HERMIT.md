@@ -1,5 +1,5 @@
 title: MICHAEL FINKEL AND HIS STORY ABOUT LAST HERMIT
-date: 2018-10-19 11:19:16
+date: 2018-10-12 11:19:16
 tags:
 ---
 ![The stranger in the woods](/images/strangerinthewood.jpg)
