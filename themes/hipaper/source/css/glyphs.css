@@ -3,8 +3,8 @@
 	src: url('fonts/athemes-glyphs.eot?48303859');
 	src: url('fonts/athemes-glyphs.eot?48303859#iefix') format('embedded-opentype'),
 		 url('fonts/athemes-glyphs.woff?48303859') format('woff'),
-		 url('fonts/athemes-glyphs.ttf?48303859') format('truetype'),
-		 url('fonts/athemes-glyphs.svg?48303859#athemes-glyphs') format('svg');
+		 url('fonts/athemes-glyphs.ttf?48303859') format('truetype');
+		 /*url('fonts/athemes-glyphs.svg?48303859#athemes-glyphs') format('svg');*/
 	font-weight: normal;
 	font-style: normal;
 	}
