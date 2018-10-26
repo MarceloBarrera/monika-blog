@@ -1,11 +1,9 @@
 <% if (is_archive()){ %>
-  <div class="archives-tags-wrap"><blockquote><span><%= __('post_total_count', site.posts.length) %></span></blockquote>
+<div class="archives-tags-wrap"><blockquote><span><%= __('post_total_count', site.posts.length) %></span></blockquote> </div>
 <% } %>
 
 
 <% if (is_current("archives/", true)){ %>
-
-	<!-- 完全显示 -->
 	<% var last; %>
 	<% site.posts.sort('-date').map(function(post, i){ %>
 		<% var year = post.date.year(); %>
@@ -48,8 +46,6 @@
 	<% if (page.posts.length){ %>
 		</div></section>
 	<% } %>
-
-	<!-- 页数指示器 -->
 	<% if (page.total > 1){ %>
 	  <nav id="page-nav">
 	    <% var prev_text = __('prev');var next_text = __('next')%>
