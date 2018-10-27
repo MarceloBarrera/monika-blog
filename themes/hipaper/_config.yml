@@ -46,6 +46,7 @@ sidebar: right
 widgets:
 - search
 - social
+- subscribe
 - recent_posts
 - category
 - tag
