@@ -126,3 +126,14 @@ deploy:
   type: heroku
   repo: https://git.heroku.com/sleepy-beach-87960.git
   message:
+
+access_token: 111111111111.xxxxxxxxxxxx.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+instagramWall:
+  enable: true
+  requestedCount: 6
+  itemsPerRow: 6
+  showCaption: true
+  gutterSize: '10px'
+  overlayColor: 'black'
+  textColor: 'white'

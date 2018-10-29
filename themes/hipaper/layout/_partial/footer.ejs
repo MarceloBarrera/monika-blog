@@ -2,7 +2,11 @@
   <% if (theme.sidebar === 'bottom'){ %>
     <%- partial('_partial/sidebar') %>
   <% } %>
-
+    <div>
+        <span>Follow me on Instagram</span>
+        <a href="https://www.instagram.com/whatbooktoreadnext_/" title="Instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <%- instagramWall(6,6, false, 'black', 'white', 'column') %>
+    </div>
   <div class="clearfix container">
       <div class="site-info">
 	      &copy; <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %> All Rights Reserved.
