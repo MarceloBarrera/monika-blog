@@ -7,7 +7,7 @@ title: what book to read next
 subtitle: review blog about books I have read and I have found inspiring
 description: Looking for a fantastic book review and want to get inspiration for what book to read next this book recommendation blog is source of finding new books to read
 keywords: books, book, what book to read next, what book shall I read
-author: Monika
+author: Monika Barrera
 language: English
 timezone: Europe/Oslo
 
@@ -137,3 +137,6 @@ instagramWall:
   gutterSize: '10px'
   overlayColor: 'black'
   textColor: 'white'
+
+sitemap:
+  path: sitemap.xml
