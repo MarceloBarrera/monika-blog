@@ -23,6 +23,11 @@
   %>
   <title><% if (title){ %><%= __(title) %> | <% } %><%= config.title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <% if(is_home()){ %>
+    <meta name="description" content="Looking for a fantastic book review and want to get inspiration for what book to read next this book recommendation blog is source of finding new books to read" />
+  <% } else if(!page.description){ %>
+          <meta name="description" content="<%- title %>" />
+  <% } %>
   <% if (page.keywords){ %>
         <meta name="keywords" content="<%- page.keywords %>" />
   <% } else if (theme.keywords){ %>
