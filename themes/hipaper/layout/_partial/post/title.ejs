@@ -5,11 +5,11 @@
 <% } else if (post.title){ %>
   <% if (index){ %>
     <h2 class="thumb" itemprop="name">
-      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.postTitle %></a>
     </h2>
   <% } else { %>
-    <h2 class="thumb" class="<%= class_name %>" itemprop="name">
-      <%= post.title %>
+    <h2 class="<%= class_name %>" itemprop="name">
+      <%= post.postTitle %>
     </h2>
   <% } %>
 <% } %>
