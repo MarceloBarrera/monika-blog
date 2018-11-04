@@ -43,14 +43,13 @@
       <%- partial('post/category') %>
       <%- partial('post/tag') %>
       <% if (!index && post.comments && (theme.duoshuo_shortname || theme.disqus_shortname || theme.uyan_uid || theme.wumii || theme.livere_shortname)){ %>
+        <%- partial('_widget/popular_posts') %>
+        <%- partial('post/nav') %>
         <%- partial('comment') %>
       <% } %>
     </footer>
     <hr class="entry-footer-hr">
   </div>
-  <% if (!index){ %>
-    <%- partial('post/nav') %>
-  <% } %>
 </article>
 
 <!-- Table of Contents -->

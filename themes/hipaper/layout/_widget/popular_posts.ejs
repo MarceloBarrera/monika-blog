@@ -1,0 +1,24 @@
+<% if (site.posts.length && (post.prev || post.next)){ %>
+  <div class="widget_athemes_tabs">
+    <ul id="widget-tab" class="clearfix widget-tab-nav">
+        <li class="active"><a>Related Posts</a></li>
+
+    </ul>
+    <div class="widget">
+      <div>
+        <% site.posts.sort('date', -1).limit(6).each(function(post){ %>
+          <div class="clearfix">
+
+              <div class="widget-entry-summary" style="margin: 0;">
+
+
+              <h6 style="margin: 0;"><a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a></h6>
+              <span><%= date(post.date, 'MMMM D, YYYY') %></span>
+            </div>
+
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+<% } %>
