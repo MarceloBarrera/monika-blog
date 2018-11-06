@@ -113,7 +113,7 @@ jsonContent:
 feed:
   type: atom
   path: atom.xml
-  limit: 1
+  limit: 10
   hub:
   content:
   content_limit: 140
