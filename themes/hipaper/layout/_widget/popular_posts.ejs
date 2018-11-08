@@ -7,9 +7,9 @@
     <div class="widget">
       <div>
         <% site.posts.sort('date', -1).limit(6).each(function(post){ %>
-          <div class="clearfix">
+          <div class="clearfix-inline">
 
-              <div class="widget-entry-summary" style="margin: 0;">
+              <div class="widget-entry-summary">
 
 
               <h6 style="margin: 0;"><a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a></h6>
