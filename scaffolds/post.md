@@ -1,10 +1,8 @@
-title: {{ title }}
-date: {{ date }}
-tags:
+title: {{title}}
+date: {{date}}
+tags: 
+category: 
+description: 
+postTitle:
 ---
-<figure class="left half-width">
-  ![](/images/.jpg)
-  <figcaption>
-
-  </figcaption>
-</figure>
+![Circe by Madeline Miller](/images/circe_madeline_miller.jpg)
