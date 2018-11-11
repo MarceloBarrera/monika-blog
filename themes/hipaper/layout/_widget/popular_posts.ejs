@@ -6,16 +6,12 @@
     </ul>
     <div class="widget">
       <div>
-        <% site.posts.sort('date', -1).limit(6).each(function(post){ %>
+        <% site.posts.filter(p => p.title!== post.title ).sort('date', -1).limit(3).each((postRelated)=>{ %>
           <div class="clearfix-inline">
-
-              <div class="widget-entry-summary">
-
-
-              <h6 style="margin: 0;"><a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a></h6>
-              <span><%= date(post.date, 'MMMM D, YYYY') %></span>
+            <div class="widget-entry-summary">
+              <h6 style="margin: 0;"><a href="<%- url_for(postRelated.path) %>"><%= postRelated.title || '(no title)' %></a></h6>
+              <span><%= date(postRelated.date, 'MMMM D, YYYY') %></span>
             </div>
-
           </div>
         <% }) %>
       </div>
