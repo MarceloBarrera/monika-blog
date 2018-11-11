@@ -39,6 +39,13 @@
         <%- post.content %>
       <% } %>
     </div>
+    <% if (!index && is_post()){ %>
+    <div>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+        <script type="IN/Share"></script>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https://whatbooktoreadnext.com/<%- url_for(post.path) %>&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <% } %>
     <footer class="entry-meta entry-footer">
       <%- partial('post/category') %>
       <%- partial('post/tag') %>
