@@ -26,7 +26,7 @@
   <% if(is_home()){ %>
     <meta name="description" content="Looking for a fantastic book review and want to get inspiration for what book to read next this book recommendation blog is source of finding new books to read" />
   <% } else if(!page.description){ %>
-          <meta name="description" content="<%- title %>" />
+          <meta name="description" content="<%- title + ', ' + config.title + ', ' + 'review blog about books'%>" />
   <% } %>
   <% if (page.keywords){ %>
         <meta name="keywords" content="<%- page.keywords %>" />
