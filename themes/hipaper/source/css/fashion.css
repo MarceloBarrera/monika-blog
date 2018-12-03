@@ -657,6 +657,9 @@ object {
 	border: solid #333;
 	border-width: 0 0 1px;
 	}
+.entry-post-footer-hr {
+	border-top: 2px solid #333 !important;
+}
 .entry-footer-hr {
 	margin: 1px 0 0 0 ;
 	border-top: 2px solid #333;
@@ -1069,7 +1072,7 @@ ul.widget-tab-nav {
     transition: filter .3s cubic-bezier(.215,.61,.355,1);
 }
 .widget-entry-summary {
-	margin: 3px 0 0 60px;
+	margin: 3px 0 0 50px;
 	}
 .widget-entry-content span,
 .widget-entry-summary span {
