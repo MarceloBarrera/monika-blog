@@ -63,6 +63,7 @@
 
 <% if (!index && is_post()){ %>
   <aside id="sidebar">
+      <%- partial('_widget/search' ) %>
       <%- partial('_widget/social') %>
       <%- partial('_widget/subscribe') %>
       <%- partial('_widget/recent_posts') %>
