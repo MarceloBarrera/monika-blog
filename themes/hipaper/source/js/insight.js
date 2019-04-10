@@ -239,10 +239,5 @@
             case 13: //ENTER
                 gotoLink($container.find('.ins-selectable.active').eq(0)); break;
         }
-    }).on('click',(function(e) {
-        //if you click on anything except the modal itself, close the modal
-        if (!$(e.target).closest(".ins-search-input").length) {
-            $main.removeClass('show');
-        }
-    }));
+    });
 })(jQuery, window.INSIGHT_CONFIG);
