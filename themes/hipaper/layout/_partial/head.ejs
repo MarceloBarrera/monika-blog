@@ -38,7 +38,7 @@
   <% if(is_home()){ %>
     <meta name="description" content="<%- 'Looking for a fantastic book review blog and want to get inspiration for what book to read next? this book recommendation blog is source of finding new books to read' + (page.current === 1 ? '' : '-' + page.current ) %> />
   <% } else if(!page.description){ %>
-          <meta name="description" content="<%- title + ', ' + config.title + ', ' + 'book review blog'%>" />
+          <meta name="description" content="<%- title + ', ' + config.title + ', ' + 'book review blog' + (page.current === 1 ? '' : '-' + page.current )%>" />
   <% }%>
   <% if (page.keywords){ %>
         <meta name="keywords" content="<%- page.keywords %>" />
