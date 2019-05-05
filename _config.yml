@@ -8,7 +8,7 @@ subtitle: book review blog about books I have read and I have found inspiring
 description:
 keywords:
 author: Monika Barrera
-language: English
+language: en
 timezone: Europe/Oslo
 
 # URL
@@ -50,7 +50,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 6
   order_by: -date
   
 # Category & Tag
@@ -67,13 +67,13 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 5
+per_page: 6
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hipaper
+theme: hueman
 
 jsonContent:
   meta: true
@@ -127,7 +127,7 @@ deploy:
   repo: https://git.heroku.com/sleepy-beach-87960.git
   message:
 
-access_token: 111111111111.xxxxxxxxxxxx.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+access_token: 598144687.d235e67.ced1d4a4df7d421684436141abbc8b47
 
 instagramWall:
   enable: true
