@@ -49,7 +49,6 @@ widgets:
 - subscribe
 - recent_posts
 - category
-- tag
 - tagcloud
 - archive
 
