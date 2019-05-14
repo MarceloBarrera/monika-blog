@@ -27,16 +27,21 @@
   %>
 
   <%
-  var titleMaxLength = 40;//max 65 characters in total, "| what book to read next" this has 25 length
+  var titleMaxLength = 37;//max 65 characters in total, "| what book to read next" this has 24 length
+  const mainDescription= 'Looking for a fantastic book review blog and want to get inspiration for what book to read next? this blog is source of finding new books to read';
   if(title.length < titleMaxLength){ %>
-    <title><%= __(title) %> | <%= config.title + (page.current === 1 ? '' : '-' + page.current )%></title>
+    <% if(is_archive() || is_home()) {%>
+      <title><%= __(title) %> | <%= config.title + (page.current === 1 ? '' : '-' + page.current )%></title>
+    <% } else { %>
+        <title><%= __(title) %> | <%= config.title %></title>
+        <%}%>
   <% } else { %>
   <title><%= __(title) %></title>
   <% } %>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <% if(is_home()){ %>
-    <meta name="description" content="<%- 'Looking for a fantastic book review blog and want to get inspiration for what book to read next? this book recommendation blog is source of finding new books to read' + (page.current === 1 ? '' : '-' + page.current ) %> />
+    <meta name="description" content="<%- mainDescription + (page.current === 1 ? '' : '-' + page.current ) %>" />
   <% } else if(!page.description){ %>
           <meta name="description" content="<%- title + ', ' + config.title + ', ' + 'book review blog' + (page.current === 1 ? '' : '-' + page.current )%>" />
   <% }%>
