@@ -127,7 +127,7 @@ deploy:
   repo: https://git.heroku.com/sleepy-beach-87960.git
   message:
 
-access_token: 598144687.d235e67.ced1d4a4df7d421684436141abbc8b47
+access_token: 598144611.a235e11.xxx1d4a4df7d421684436141abbc8b11
 
 instagramWall:
   enable: true
