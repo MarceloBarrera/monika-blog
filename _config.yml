@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: what book to read next blog
+title: What book to read next blog
 subtitle: book review blog about books I have read and I have found inspiring
 description:
 keywords:
@@ -142,3 +142,36 @@ sitemap:
   path: sitemap.xml
   tag: true
   category: true
+
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/sample-logo.png
+    width:  600
+    height: 60
+  substituteTitleImage:
+    path:   sample/sample-substituteTitleImage.png
+    width:  1024
+    height: 800
+  warningLog: true
+  validateAMP: true
+  theme:
+    menu:
+      Archives: /archives
+      About: /about
+    share_button:
+      twitter: true
+      facebook: true
+      google: true
+      hatena: true
+      tumblr: true
+    latests: true
+    authorLink:
+      instagram_id: whatbooktoreadnext_
+authorDetail:
+    avatar:
+      path:   sample/monika_barrera.jpg
+      width:  150
+      height: 150
+    description: Global citizen based in Norway 🇳🇴 Book blogger 📚 living simpler and slower life 🏔loving nature 🏔 vegetarian since I was 16 🌱 explorer 🌍
