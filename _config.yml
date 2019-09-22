@@ -166,12 +166,8 @@ generator_amp:
       google: true
       hatena: true
       tumblr: true
+    category_posts: true
     latests: true
     authorLink:
       instagram_id: whatbooktoreadnext_
-authorDetail:
-    avatar:
-      path:   sample/monika_barrera.jpg
-      width:  150
-      height: 150
-    description: Global citizen based in Norway 🇳🇴 Book blogger 📚 living simpler and slower life 🏔loving nature 🏔 vegetarian since I was 16 🌱 explorer 🌍
+authorDetail: true
