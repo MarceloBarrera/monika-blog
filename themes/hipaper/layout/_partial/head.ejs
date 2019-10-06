@@ -43,6 +43,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <% if(is_home()){ %>
     <meta name="description" content="<%- mainDescription + (page.current === 1 ? '' : '-' + page.current ) %>" />
+    <meta property="og:description" content="<%- mainDescription + (page.current === 1 ? '' : '-' + page.current ) %>" />
+    <meta property="og:image" content="https://whatbooktoreadnext.com/what-book-to-read-next.jpg" />
   <% } else if(!page.description){ %>
           <meta name="description" content="<%- title + ', ' + config.title + ', ' + 'book review blog' + (page.current === 1 ? '' : '-' + page.current )%>" />
   <% }%>

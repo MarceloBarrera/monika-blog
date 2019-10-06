@@ -35,5 +35,19 @@
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     <%- partial('_partial/after-footer') %>
   </div>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "whatbooktoreadnext",
+            "url": "https://www.whatbooktoreadnext.com",
+            "sameAs": [
+                "https://www.instagram.com/whatbooktoreadnext_/",
+                "https://www.linkedin.com/in/monika-barrera/",
+                "https://no.pinterest.com/whatbooktoreadnext/",
+                "https://www.goodreads.com/user/show/72425080-monika-barrera"
+            ]
+        }
+  </script>
 </body>
 </html>
