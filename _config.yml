@@ -171,3 +171,5 @@ generator_amp:
     authorLink:
       instagram_id: whatbooktoreadnext_
 authorDetail: true
+
+all_minifier: false
