@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -172,4 +172,10 @@ generator_amp:
       instagram_id: whatbooktoreadnext_
 authorDetail: true
 
-all_minifier: false
+all_minifier: true
+
+js_concator:
+  enable: true
+  bundle_path: '/js/bundle.js'
+  front: false
+  silent: false
