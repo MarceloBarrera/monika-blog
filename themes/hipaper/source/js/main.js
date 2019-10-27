@@ -2,7 +2,7 @@
 // Highlight current nav item
 var hasCurrent = false;
 $('#main-nav > li').each(function () {
-	var url = window.location.href;
+	var url = window.location.href.replace('-',' ');
 	if(url.toUpperCase().indexOf($(this).text().trim().toUpperCase()) != -1){
 		$(this).addClass('current-menu-item current_page_item');
 		hasCurrent = true;
