@@ -1080,7 +1080,11 @@ ul.widget-tab-nav {
 	color: #a6a6a6;
 	font-size: .875em;
 	font-weight: 300;
+<<<<<<< HEAD
 	font-family: Oswald, "Microsoft Yahei UI", Arial, Helvetica, sans-serif;
+=======
+	font-family: Oswald, "Microsoft YaHei UI", Arial, Helvetica, sans-serif;
+>>>>>>> 020064432168912b2ab27d72db1ccd4f6d4befef
 	text-transform: none;
 	}
 .widget-entry-content h4,
